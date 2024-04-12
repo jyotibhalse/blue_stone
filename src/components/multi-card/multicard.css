@@ -1,0 +1,41 @@
+
+.multi-1 img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 130px;
+    width: 200px;
+}
+.multi-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+
+}
+
+@media (max-width: 576px) {
+    .multi-1 {
+        height: 120px;  }
+        
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .multi-1 {
+        height: 150px;     }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .multi-1 {
+        height: 170px;  }
+}
+@media (min-width: 1000px) {
+    .multi-1 img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+    }
+}

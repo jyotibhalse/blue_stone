@@ -1,0 +1,67 @@
+.Navigator {
+    background-color: white;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.Navigator1 {
+    height: 45px;
+    background-color:#001e38;
+    color: aliceblue;
+}
+/* .navbar{
+    color: aliceblue    ;
+} */
+.img1 {
+    width: 220px; /* Adjusted width */
+    height: auto; /* Adjusted height to maintain aspect ratio */
+}
+
+.form1 {
+    display: flex;
+    justify-content: center; 
+    width: 20%;
+}
+
+.Information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    margin-left: 20%;
+}
+
+
+.imoge {
+    display: flex;
+    justify-content:end; 
+    margin-left: 40%;
+}
+
+@media (max-width: 767px) {
+    .Navigator {
+        height: 50px; /* Adjusted height for smaller screens */
+        margin-bottom: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    .img1 {
+        width: 120px; /* Adjusted width */
+        height: auto; /* Adjusted height to maintain aspect ratio */
+    }
+
+    .Navigator1 {
+        height: 50px; /* Adjusted height for smaller screens */
+        margin-bottom: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    .Information {
+        display: none; /* Hidden on smaller screens */
+    }
+
+    .form1 {
+        display: none; /* Hidden on smaller screens */
+    }
+
+    .rowdata {
+        display: none; /* Hidden on smaller screens */
+    }
+}

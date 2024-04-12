@@ -1,0 +1,27 @@
+.for_m1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 50%;
+    background-color:  rgb(247, 220, 220);
+    text-align: center;
+    /* margin-top: 2% */
+    
+}
+.for_m1 h1{
+    color: rgb(37, 16, 16);
+    background-color: rgb(247, 220, 220);
+}
+.for_m2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(20, 21, 21);
+    margin-bottom: 1px;
+    background-color: rgb(241, 211, 211);
+    /* max-width: 100%;
+    width: 50%; */
+
+}
