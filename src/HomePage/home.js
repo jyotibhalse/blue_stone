@@ -44,7 +44,7 @@ export default () => {
         <p>Drop in to BlueStone Store near you</p>
         <p1>
           Drop in to <h2>BlueStone Store</h2>
-          <h6>near you</h6>
+          <h6>Near You</h6>
         </p1>
         <p2>
           <Button
